@@ -6,8 +6,6 @@ metadata:
   namespace: manifest
   labels:
     app: hello
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
